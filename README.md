@@ -1,3 +1,18 @@
+# 주의사항
+
+* Inference 만을 위해서라면 demo.ipynb를 볼 것.
+* Requirements 먼저 볼 것.
+
+## Requirements
+* Python 3.4+
+* TensorFlow 1.3+
+* Keras 2.0.8+
+* Jupyter Notebook
+* Numpy, skimage, scipy, Pillow, cython, h5py
+* pip3 install imageaug
+* conda install -c conda-forge opencv 
+
+
 # Mask R-CNN for Object Detection and Segmentation
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
